@@ -2,21 +2,21 @@
 Python version of a CLI diceware password creation tool
 
 Contents:
-  dice.py - *Da Code*
+dice.py - *Da Code*
 
-  Wordlists
+Wordlists
   
-    beale.wordlist.txt - Word list created by Alan Beale. Replaces words in diceware.wordlist.txt that might be harder to remember for people who were not born or live in the US (e.g. ncaa, idaho)
-    
-    diceware.wordlist.txt - General wordlist
-    
-    long_wordlist.txt - Uses longer words
-    
-    med_wordlist.txt - Uses medium-size words
-    
-    short_wordlist.txt - Uses short words
-    
-    sp.txt - I honestly can't remember how I got this
+beale.wordlist.txt - Word list created by Alan Beale. Replaces words in diceware.wordlist.txt that might be harder to remember for people who were not born or live in the US (e.g. ncaa, idaho)
+
+diceware.wordlist.txt - General wordlist
+
+long_wordlist.txt - Uses longer words
+
+med_wordlist.txt - Uses medium-size words
+
+short_wordlist.txt - Uses short words
+
+sp.txt - I honestly can't remember how I got this
 
 FAQ
 
