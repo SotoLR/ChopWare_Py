@@ -1,10 +1,10 @@
 # ChopWare_Py
 Python version of a CLI diceware password creation tool
 
-Contents:
+##Contents:
 dice.py - *Da Code*
 
-Wordlists
+###Wordlists
   
 beale.wordlist.txt - Word list created by Alan Beale. Replaces words in diceware.wordlist.txt that might be harder to remember for people who were not born or live in the US (e.g. ncaa, idaho)
 
@@ -18,7 +18,7 @@ short_wordlist.txt - Uses short words
 
 sp.txt - I honestly can't remember how I got this
 
-FAQ
+##FAQ
 
 Q: What is diceware?
 
