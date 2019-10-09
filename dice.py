@@ -1,5 +1,6 @@
+#Python 3.7
 from random import randint as ri
-#from secrets import 
+#from secrets import #todo: use secrets for secure random numbers
 
 def mkp(w=6,c=1):
 	res = []
@@ -32,7 +33,7 @@ for i in range(10):
 
 """
 http://world.std.com/~reinhold/diceware.html
-	Optional stuff you don't really need to know
+	Optional stuff you don't really need to know TODO: add the option to use this stuff
 http://world.std.com/%7Ereinhold/dicewarekit.html
 http://world.std.com/%7Ereinhold/dicewarefaq.html#memory
 """
