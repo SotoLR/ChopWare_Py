@@ -6,7 +6,7 @@ At this point, it's very simple. The bulk of the logic occurs in the *mkp(w,c)* 
 
 The default values for *w* and *c* are 6 and 1, respectively. You can run the function with or without parameters.
 
-**Update:** Rolling for *c* several times is not "more random", but it makes the outcome of running the script less predictable. It would be easier for someone who knows the exact state of your computer to re-create results, therefore reducing the passphrases you might have chosen. However, if your threat model is someone who can obtain this info, you probably shouldn't be using software like this to choose your passphrases. 
+**Update:** Rolling for *c* several times is not "more random", but it makes the outcome of running the script less predictable. Not doing so would make it easier for someone who knows the exact state of your computer to re-create results, therefore reducing the passphrases you might have chosen. However, if your threat model is someone who can obtain this info, you probably shouldn't be using software like this to choose your passphrases. 
 
 ## Contents:
 dice.py - *The code*
