@@ -4,9 +4,9 @@ Python version of a CLI diceware password creation tool
 ## How does it work?
 At this point, it's very simple. The bulk of the logic occurs in the *mkp(w,c)* function, which generates a passphrase *w* words long from the data in whatever file has been saved to the *wordlist* variable. Generating each word in the passphrase requires 5 numbers between 1 and 6, each randomly generated. Modifying the *c* parameter will increase the amount of times the tool will "roll" for that number. The purpose of this is to increase randomness, but I am unsure if there is even a point in that. Or is a number generated now less random than a number generated 12 milliseconds from now? Don't know, will find out before this tool is done. 
 
-**Update:** It's not "more random", but it makes the outcome of running the script less predictable. It would be easier for someone who knows the exact state of your computer to re-create results, therefore reducing the passphrases you might have chosen. However, if your threat model is someone who can obtain this info, you probably shouldn't be using software like this to choose your passphrases. 
-
 The default values for *w* and *c* are 6 and 1, respectively. You can run the function with or without parameters.
+
+**Update:** It's not "more random", but it makes the outcome of running the script less predictable. It would be easier for someone who knows the exact state of your computer to re-create results, therefore reducing the passphrases you might have chosen. However, if your threat model is someone who can obtain this info, you probably shouldn't be using software like this to choose your passphrases. 
 
 ## Contents:
 dice.py - *The code*
