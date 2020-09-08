@@ -1,6 +1,10 @@
 import msvcrt
-
+#Dear future me: I hope you can remember how this "phrase memorization tool" was supposed to work.
+#Dear past me: congrats. You made a stupid version of VI with less functionality than notepad.
 def main():
+	#Type anything until exit sequence is typed
+	#Just prints the typed keys out
+	#Exit sequence: *****
 	exit_char = '*'
 	exit_str_len = 5
 
