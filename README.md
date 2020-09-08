@@ -11,7 +11,7 @@ The default values for *w* and *c* are 6 and 1, respectively. You can run the fu
 ## Contents:
 dice.py - *The code*
 
-phraser.py - **WIP. Please ignore** Tool that helps you memorize your new passphrase.
+phraser.py - **WIP. Please ignore.** Tool that helps you memorize your new passphrase.
 
 ### Wordlists
   
