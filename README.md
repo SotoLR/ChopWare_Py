@@ -11,6 +11,8 @@ The default values for *w* and *c* are 6 and 1, respectively. You can run the fu
 ## Contents:
 dice.py - *The code*
 
+phraser.py - **WIP. Please ignore** Tool that helps you memorize your new passphrase.
+
 ### Wordlists
   
 beale.wordlist.txt - Word list created by Alan Beale. Replaces words in diceware.wordlist.txt that might be harder to remember for people who were not born or live in the US (e.g. ncaa, idaho)
@@ -56,7 +58,7 @@ Don't believe me? Do the math yourself!
 
 (7776^6)/(60 seconds * 60 minutes * 24 hours * 365.22425 days * 1000 years)
 
-PS: In the future, I plan on adding options to select a random wordlist from a directory for each word in the passphrase.
+PS: In the future, I plan on adding options to select a random wordlist from a directory for each word in the passphrase. Maybe a GUI?
 
 
 
