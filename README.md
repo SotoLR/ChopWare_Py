@@ -44,9 +44,9 @@ A: See http://world.std.com/~reinhold/diceware.html
 
 Q: Should you really be publishing the wordlist you use?
 
-A: See http://world.std.com/~reinhold/diceware.html (Are you sensing a pattern here?)
+A: See http://world.std.com/~reinhold/diceware.html 
 
-TL;DR: First of all: shame on you for not reading (Kidding, of course, as I'm sure you're busy). Second of all: there are 7776 words per wordlist. Assuming you use 6 words in a passphrase (you really shouldn't use less than 5). That's 7776^6, or 2.2107392e+23, possible passphrases. Here's a real flashy version of that number, just in case: 
+TL;DR: there are 7776 words per wordlist. Assuming you use 6 words in a passphrase (you really shouldn't use less than 5). That's 7776^6, or 2.2107392e+23, possible passphrases. Here's a real flashy version of that number, just in case: 
 
 ### 221 073 920 000 000 000 000 000+, or more than 221 motherflippin sextillion possibilities
 
