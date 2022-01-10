@@ -1,6 +1,8 @@
 #Python 3.7
-from random import randint as ri
-#from secrets import #todo: use secrets for secure random numbers
+# from random import randint as ri
+from secrets import randbelow
+from sys import argv
+from os.path import isfile
 
 def mkp(w=6,c=1):
 	res = []
@@ -8,16 +10,25 @@ def mkp(w=6,c=1):
 		nums = []
 		for j in range(5):
 			for k in range(c):
-				n = ri(1,6)
+				# n = ri(1,6)
+				n = randbelow(6)+1
 			nums.append(n)
 		wn = int("".join([str(a) for a in nums]))
 		res.append(words.get(wn))
 	return res
 
+words = {}
 
 wordlist="beale.wordlist.txt"
 
-words = {}
+if len(argv) > 1:
+	wordlist = argv[1]
+
+if not isfile(wordlist):
+	print("========================================================================")
+	print(f"| Wordlist with name '{wordlist}' not found. Defaulting to Beale Wordlist... |")
+	print("========================================================================")
+	wordlist="beale.wordlist.txt"
 
 with open(wordlist, "r") as f:
 	#words = [ln.strip().split("\t") for ln in f.readlines()]
@@ -28,7 +39,7 @@ with open(wordlist, "r") as f:
 
 for i in range(10):
 	r = mkp()
-	print(r)
+	print(' '.join(r))
 	print(f"\t{''.join(r)}")
 
 """
