@@ -11,7 +11,9 @@ The default values for *w* and *c* are 6 and 1, respectively. You can run the fu
 ## Contents:
 dice.py - *The code*
 
-phraser.py - **WIP. Please ignore.** Tool that helps you memorize your new passphrase.
+phraser.py - **WIP. Please ignore.** Tool that helps you memorize your new passphrase. The original intent was to have a program that allows the user to write out a longer sentence based on their selected passphrase. The sentence can be used to more easily memorize the passpharse.
+
+For example, if my selected passhprase is 'defiantraffleswaddlingcolonialebaysurface' (composed of the words 'defiant', 'raffle', 'swaddling', 'colonial', 'ebay', and 'surface'), I could write the sentence "The DEFIANT winner of the RAFFLE was SWADDLING their child in COLONIAL blankets bought from EBAY, a website that seems safe on the SURFACE".
 
 ### Wordlists
   
