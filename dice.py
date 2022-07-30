@@ -1,20 +1,16 @@
 #Python 3.7
-# from random import randint as ri
 from secrets import randbelow
 from sys import argv
 from os.path import isfile
 
-def mkp(w=6,c=1):
+# w is the amount of words in the passphrase
+def mkp(w=6):
 	res = []
 	for i in range(w):
-		nums = []
-		for j in range(5):
-			for k in range(c):
-				# n = ri(1,6)
-				n = randbelow(6)+1
-			nums.append(n)
-		wn = int("".join([str(a) for a in nums]))
-		res.append(words.get(wn))
+		#generate a number that is 5 digits long and every digit is between 1 and 6 inclusive
+		#the generated number coincides with a wordlist index
+		word_key = int("".join([str(randbelow(6)+1) for _ in range(5)]))
+		res.append(words.get(word_key))
 	return res
 
 words = {}
