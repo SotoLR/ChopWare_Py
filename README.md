@@ -11,7 +11,9 @@ The default values for *w* and *c* are 6 and 1, respectively. You can run the fu
 ## Contents:
 dice.py - *The code*
 
-phraser.py - **WIP. Please ignore.** Tool that helps you memorize your new passphrase.
+phraser.py - **WIP. Please ignore.** Tool that helps you memorize your new passphrase. The original intent was to have a program that allows the user to write out a longer sentence based on their selected passphrase. The sentence can be used to more easily memorize the passpharse.
+
+For example, if my selected passhprase is 'defiantraffleswaddlingcolonialebaysurface' (composed of the words 'defiant', 'raffle', 'swaddling', 'colonial', 'ebay', and 'surface'), I could write the sentence "The DEFIANT winner of the RAFFLE was SWADDLING their child in COLONIAL blankets bought from EBAY, a website that seems safe on the SURFACE".
 
 ### Wordlists
   
@@ -44,9 +46,9 @@ A: See http://world.std.com/~reinhold/diceware.html
 
 Q: Should you really be publishing the wordlist you use?
 
-A: See http://world.std.com/~reinhold/diceware.html (Are you sensing a pattern here?)
+A: See http://world.std.com/~reinhold/diceware.html 
 
-TL;DR: First of all: shame on you for not reading (Kidding, of course, as I'm sure you're busy). Second of all: there are 7776 words per wordlist. Assuming you use 6 words in a passphrase (you really shouldn't use less than 5). That's 7776^6, or 2.2107392e+23, possible passphrases. Here's a real flashy version of that number, just in case: 
+TL;DR: there are 7776 words per wordlist. Assuming you use 6 words in a passphrase (you really shouldn't use less than 5). That's 7776^6, or 2.2107392e+23, possible passphrases. Here's a real flashy version of that number, just in case: 
 
 ### 221 073 920 000 000 000 000 000+, or more than 221 motherflippin sextillion possibilities
 
